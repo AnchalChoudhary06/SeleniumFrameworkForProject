@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-14T12:38:05 IST" name="Suite" finished-at="2025-02-14T12:38:14 IST" duration-ms="8461">
+    <groups>
+    </groups>
+    <test started-at="2025-02-14T12:38:05 IST" name="Test" finished-at="2025-02-14T12:38:14 IST" duration-ms="8461">
+      <class name="qa.tests.Testcase1">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:qa.tests.Testcase1@352c1b98]" started-at="2025-02-14T12:38:05 IST" name="startReport" finished-at="2025-02-14T12:38:06 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@352c1b98]" started-at="2025-02-14T12:38:06 IST" name="launchbrowser" finished-at="2025-02-14T12:38:08 IST" duration-ms="2418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testcase1.sampleMethodForEnteringCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="sampleMethodForEnteringCredentials()[pri:0, instance:qa.tests.Testcase1@352c1b98]" started-at="2025-02-14T12:38:08 IST" name="sampleMethodForEnteringCredentials" finished-at="2025-02-14T12:38:13 IST" duration-ms="5093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethodForEnteringCredentials -->
+        <test-method is-config="true" signature="listner(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@352c1b98]" started-at="2025-02-14T12:38:13 IST" name="listner" finished-at="2025-02-14T12:38:13 IST" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleMethodForEnteringCredentials status=SUCCESS method=Testcase1.sampleMethodForEnteringCredentials()[pri:0, instance:qa.tests.Testcase1@352c1b98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listner -->
+        <test-method is-config="true" signature="flushOutReport()[pri:0, instance:qa.tests.Testcase1@352c1b98]" started-at="2025-02-14T12:38:13 IST" name="flushOutReport" finished-at="2025-02-14T12:38:14 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushOutReport -->
+      </class> <!-- qa.tests.Testcase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
