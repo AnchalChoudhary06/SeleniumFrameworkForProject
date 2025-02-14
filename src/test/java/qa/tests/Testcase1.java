@@ -13,6 +13,8 @@ public class Testcase1 extends BaseTest {
 	LoginPageEvents loginPage = new LoginPageEvents();
   @Test
   public void sampleMethodForEnteringCredentials() {
+	  //Add the logger here to log the info
+	  logger.info("Verify the Login Credentials");
 	  homaPage.signInButton();
 	  switchWindowHandle();
 	  loginPage.verifyIfLogInPageIsLoaded();
